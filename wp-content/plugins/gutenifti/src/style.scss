@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ @font-face {
+    font-family: Gilbert;
+    src: url( ../assets/Gilbert.otf );
+    font-weight: 700;
+}
+.wp-block-create-block-gutenifti {
+	background-color: #fff;
+	color: #fff;
+	padding: 4px 7px;
+    font-size: 18px;
+}
+.gutenifti-controls-content-display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2;
+}

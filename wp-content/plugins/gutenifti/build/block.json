@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/gutenifti",
+  "version": "0.1.0",
+  "title": "Gutenifti",
+  "category": "design",
+  "icon": "palmtree",
+  "description": "Block for styling a content",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "gutenifti",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "source": "text",
+      "selector": "div",
+      "default": ""
+    },
+    "bg_color": {
+      "type": "string",
+      "default": "#f9f9f9"
+    },
+    "text_color": {
+      "type": "string",
+      "default": "#000"
+    },
+    "textarea_content": {
+      "type": "string",
+      "default": ""
+    },
+    "padding_top": {
+      "type": "number",
+      "default": ""
+    },
+    "padding_left": {
+      "type": "number",
+      "default": ""
+    },
+    "padding_bottom": {
+      "type": "number",
+      "default": ""
+    },
+    "padding_right": {
+      "type": "number",
+      "default": ""
+    },
+    "border_radius": {
+      "type": "number",
+      "default": ""
+    },
+    "text_aligment": {
+      "type": "string",
+      "default": "left"
+    },
+    "line_height": {
+      "type": "number",
+      "default": ""
+    },
+    "font_size": {
+      "type": "number",
+      "default": ""
+    },
+    "border_type": {
+      "type": "string",
+      "default": ""
+    },
+    "border_px": {
+      "type": "number",
+      "default": ""
+    },
+    "border_color": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
